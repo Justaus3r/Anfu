@@ -49,5 +49,7 @@ Please keep the encryption key safe,if anyone gets it you data might get comprom
 ### Conttribution:
 All Contributions are Welcomed..Fork the repo and pull requests.Suggestions at x-neron@pm.me
 
+### Documentation
+A breif Documentation is also available at [readthedocs](https://anfu.readthedocs.io/en/latest/)
 ### License:
 Distributed Under GPLV3
