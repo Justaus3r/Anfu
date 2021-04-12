@@ -18,6 +18,6 @@ A python program to Encrypt Files and Directories using Symmetric encryption(fer
 ### Download
 | Date:         | Comment:                                     | 
 | ------------- |:-------------:                               | 
-|Windows        | ![language](https://badgen.net/badge/Language/Python/cyan)(https://drive.google.com/uc?export=download&id=19sQsUEwv6K-4VQEy7rvuG_1sScKD8geh)|
+|Windows        | [Windows](https://drive.google.com/uc?export=download&id=19sQsUEwv6K-4VQEy7rvuG_1sScKD8geh)|
 
 
