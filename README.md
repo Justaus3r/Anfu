@@ -14,3 +14,10 @@
 [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
 
 A python program to Encrypt Files and Directories using Symmetric encryption(fernet) Encryption.it has a simple Textual user interface(TUI).its available for both Linux and Windows.
+
+### Download
+| Date:         | Comment:                                     | 
+| ------------- |:-------------:                               | 
+|Windows        | ![language](https://badgen.net/badge/Language/Python/cyan)(https://drive.google.com/uc?export=download&id=19sQsUEwv6K-4VQEy7rvuG_1sScKD8geh)|
+
+
