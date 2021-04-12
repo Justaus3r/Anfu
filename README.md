@@ -4,7 +4,7 @@
 ## Anfu
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 ![Contribution](https://img.shields.io/badge/Contributions-Welcome-<brightgreen>)
-![language](https://badgen.net/badge/color/cyan/cyan)
+![language](https://badgen.net/badge/Language/Python/cyan)
 [![Active](http://img.shields.io/badge/Status-Active-green.svg)](https://github.com/Justaus3r)
 [![GitHub commits since](https://img.shields.io/github/commits-since/Justaus3r/Anfu/0.1)]() 
 [![Issues](https://img.shields.io/github/issues-raw/Justaus3r/Penta?maxAge=25000)](https://github.com/Justaus3r/Penta/issues)
