@@ -18,6 +18,36 @@ A python program to Encrypt Files and Directories using Symmetric encryption(fer
 ### Download
 | Date:         | Comment:                                     | 
 | ------------- |:-------------:                               | 
-|Windows        | [Windows](https://drive.google.com/uc?export=download&id=19sQsUEwv6K-4VQEy7rvuG_1sScKD8geh)|
+|**Windows**    | [Windows](https://drive.google.com/uc?export=download&id=19sQsUEwv6K-4VQEy7rvuG_1sScKD8geh)|
+|**Linux**      | [Linux](https://drive.google.com/uc?export=download&id=1vBNCZDR8a4H8QDAvZ8ArwfttGWceo5x_)  |
 
+### Screenshot:
 
+ [Screenshot](https://drive.google.com/uc?export=download&id=19sQsUEwv6K-4VQEy7rvuG_1sScKD8geh)
+
+## Usage:
+#### Windows:
+Just install the executable and start using it
+
+##### Linux:
+- Download the zip and extract it
+- Change the permission of setup file to executable(i.e ```chmod +x setup.sh```)
+- Execute the script i.e:```./setup.sh```
+- Type ```Anfu``` in terminal and start using it.cheers!
+### Key Features
+- A simple and attractive TUI(Textual user interface).
+- Portable ,no need for installation.install anywhere anytime
+- Symmetric encryption.Files are encrypted with high level encryption
+
+### TODO List:
+- Add mouse support
+- Encrypt Files with password
+
+### 🔴Note:
+Please keep the encryption key safe,if anyone gets it you data might get compromised.if you don't want to keep the key file then open it and copy the key and keep that key somewhere safe. 
+
+### Conttribution:
+All Contributions are Welcomed..Fork the repo and pull requests.Suggestions at x-neron@pm.me
+
+### License:
+Distributed Under GPLV3
