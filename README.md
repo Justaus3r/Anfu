@@ -1,5 +1,5 @@
 ### Readme.md 👋
-[Enc-img](https://github.com/Justaus3r/Anfu/blob/main/image/encryption.png)
+[Enc-img](https://github.com/Justaus3r/Anfu/blob/5bcab072180e7d1cf76f32287bfcb3a3116b71ce/image/encryption.png)
 ## Anfu
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 ![Contribution](https://img.shields.io/badge/Contributions-Welcome-<brightgreen>)
