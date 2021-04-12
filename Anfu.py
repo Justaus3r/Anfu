@@ -21,7 +21,7 @@ Distributed under GPLV3
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
-This is My First Project with curses so prolly gonna be messy,also there are gonna be some code repetitions
+This is My First Project with curses so prolly gonna be messy,also there are gonna be some code repetition
 '''
 import curses
 import time
