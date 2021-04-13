@@ -27,7 +27,7 @@ A python program to Encrypt Files and Directories using Symmetric encryption(fer
 
 ## Usage:
 #### Windows:
-Just install the executable and start using it
+Just download the executable and start using it
 
 ##### Linux:
 - Download the zip and extract it
