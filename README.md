@@ -23,7 +23,7 @@ A python program to Encrypt Files and Directories using Symmetric encryption(fer
 
 ### Screenshot:
 
- [Screenshot](https://drive.google.com/uc?export=download&id=1ZDll6R1LYuY_E9zpaklfI3i3DgEa45yi)
+ ![Screenshot](https://drive.google.com/uc?export=download&id=1ZDll6R1LYuY_E9zpaklfI3i3DgEa45yi)
 
 ## Usage:
 #### Windows:
