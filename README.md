@@ -43,7 +43,7 @@ Just download the executable and start using it
 - Add mouse support
 - Encrypt Files with password
 
-### 🔴Note:
+### 🔴 Note:
 Please keep the encryption key safe,if anyone gets it you data might get compromised.if you don't want to keep the key file then open it and copy the key and keep that key somewhere safe. 
 
 ### Conttribution:
