@@ -44,7 +44,7 @@ Just download the executable and start using it
 - Encrypt Files with password
 
 ### 🔴 Note:
-Please keep the encryption key safe,if anyone gets it you data might get compromised.if you don't want to keep the key file then open it and copy the key and keep that key somewhere safe. 
+Please keep the encryption key safe,if anyone gets it your data might get compromised.if you don't want to keep the key file then open it and copy the key and keep that key somewhere safe. 
 
 ### Conttribution:
 All Contributions are Welcomed..Fork the repo and pull requests.Suggestions at x-neron@pm.me
