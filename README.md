@@ -21,6 +21,9 @@ A python program to Encrypt Files and Directories using Symmetric encryption(fer
 |**Windows**    | [Windows](https://drive.google.com/uc?export=download&id=19sQsUEwv6K-4VQEy7rvuG_1sScKD8geh)|
 |**Linux**      | [Linux](https://drive.google.com/uc?export=download&id=1vBNCZDR8a4H8QDAvZ8ArwfttGWceo5x_)  |
 
+### Alternative Mirror:
+If above link is not working,you can also download Anfu from [Source-forge](https://sourceforge.net/projects/anfu/files/Anfu.exe/download)
+
 ### Screenshot:
 
  ![Screenshot](https://drive.google.com/uc?export=download&id=1ZDll6R1LYuY_E9zpaklfI3i3DgEa45yi)
