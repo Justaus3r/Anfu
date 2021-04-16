@@ -41,6 +41,7 @@ Just download the executable and start using it
 - A simple and attractive TUI(Textual user interface).
 - Portable ,no need for installation.install anywhere anytime
 - Symmetric encryption.Files are encrypted with high level encryption
+- Can Adjust itself with the screen
 
 ### TODO List:
 - Add mouse support
