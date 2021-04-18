@@ -1,4 +1,5 @@
 ### Readme.md 👋
+>>Active development paused for time being
 <img src="https://raw.githubusercontent.com/Justaus3r/Anfu/Master/image/encryption.png">
 
 ## Anfu
