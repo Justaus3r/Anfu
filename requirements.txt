@@ -1,2 +1,2 @@
 windows-curses
-print
+rich
