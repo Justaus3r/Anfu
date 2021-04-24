@@ -54,7 +54,10 @@ Please keep the encryption key safe,if anyone gets it your data might get compro
 ### Conttribution:
 All Contributions are Welcomed..Fork the repo and pull requests.Suggestions at x-neron@pm.me
 
-### Documentation
+### Documentation:
 A breif Documentation is also available at [readthedocs](https://anfu.readthedocs.io/en/latest/)
 ### License:
 Distributed Under GPLV3
+
+### Note:
+Icons for Anfu are taken from [Flaticon](https://www.flaticon.com/).Credits go to the author
