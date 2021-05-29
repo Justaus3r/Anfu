@@ -1,2 +1,3 @@
 windows-curses
 rich
+cryptography
