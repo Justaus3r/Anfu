@@ -18,7 +18,7 @@ A python program to Encrypt Files and Directories using Symmetric encryption(fer
 ### Download
 | Date:         | Comment:                                     | 
 | ------------- |:-------------:                               | 
-|**Windows**    | [Windows](https://drive.google.com/uc?export=download&id=1LVW8_62BQCcQy913dx6uIJla218wIy6M)|
+|**Windows(10 only)**    | [Windows](https://drive.google.com/uc?export=download&id=1LVW8_62BQCcQy913dx6uIJla218wIy6M)|
 |**Linux**      | [Linux](https://drive.google.com/uc?export=download&id=1WSOFs3nU9ZGHlyIVa5EJ-7_r4fA4voiC)  |
 
 ### Alternative Mirror:
