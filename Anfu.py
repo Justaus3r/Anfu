@@ -229,12 +229,15 @@ def _get_filename(stdscr):
         filename.FileName = filedialog.askopenfilename(
             initialdir="C:\\", title="Select a File", filetypes=(("All Files", "*.*"),)
         )
-    # if not windows then linux,IGNOREEEEEEEEE MAC
-    filename.FileName = filedialog.askopenfilename(
-        initialdir="/home", title="Select a File", filetypes=(("All Files", "*.*"),)
-    )
-    filename.destroy()
-    return filename.FileName
+        filename.destroy()
+        return filename.FileName    
+    else:
+        # if not windows then linux,IGNOREEEEEEEEE MAC
+        filename.FileName = filedialog.askopenfilename(
+            initialdir="/home", title="Select a File", filetypes=(("All Files", "*.*"),)
+        )
+        filename.destroy()
+        return filename.FileName
 
 
 # Function for getting Directory name
@@ -256,14 +259,17 @@ def _get_keyfile(stdscr):
             title="Selecta Key File",
             filetypes=(("Anfu Keyfiles", "*.anky"),),
         )
-    # if not windows then linux,IGNOREEEEEEEEE MAC
-    keyfile.KeyfileName = filedialog.askopenfilename(
-        initialdir="/home",
-        title="Select a Key File",
-        filetypes=(("Anfu Keyfiles", "*.anky"),),
-    )
-    keyfile.destroy()
-    return keyfile.KeyfileName
+        keyfile.destroy()
+        return keyfile.KeyfileName
+    else:
+        # if not windows then linux,IGNOREEEEEEEEE MAC
+        keyfile.KeyfileName = filedialog.askopenfilename(
+            initialdir="/home",
+            title="Select a Key File",
+            filetypes=(("Anfu Keyfiles", "*.anky"),),
+        )
+        keyfile.destroy()
+        return keyfile.KeyfileName
 
 
 # Function to check if a file is being choosed or not
