@@ -13,7 +13,7 @@
 [![Read the Docs](https://readthedocs.org/projects/penta/badge/?version=latest)](https://anfu.readthedocs.io/en/latest/?badge=latest)
 [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
 
-A python program to Encrypt Files and Directories using Symmetric encryption(fernet) Encryption.it has a simple Textual user interface(TUI).its available for both Linux and Windows.
+A python program to Encrypt Files and Directories using Symmetric(fernet) Encryption.it has a simple Textual user interface(TUI).its available for both Linux and Windows.
 
 ### Download
 | Date:         | Comment:                                     | 
