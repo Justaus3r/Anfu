@@ -43,9 +43,12 @@ Linux:
 -  Change the permission of setup file to executable(i.e
    ``chmod +x setup.sh``)
 -  Execute the script i.e:\ ``./setup.sh``
--  Type ``Anfu`` in terminal and start using it.cheers! ### Key Features
+-  Type ``Anfu`` in terminal and start using it.cheers! 
+
+Key features:
+''''''
 -  A simple and attractive TUI(Textual user interface).
--  Portable ,no need for installation.install anywhere anytime
+-  Portable ,no need for installation.install anywhere,anytime.
 -  Symmetric encryption.Files are encrypted with high level encryption
 
 TODO List:
