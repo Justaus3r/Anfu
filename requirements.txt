@@ -1,3 +1,4 @@
 windows-curses
 rich
 cryptography
+plyer
