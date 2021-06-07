@@ -756,7 +756,8 @@ def About(stdscr):
 def _exit(stdscr):
     os.remove("AnfuTmpcfg.temp")
     os.remove("write_notification_bool")
-    os.system("taskkill /f /im _virtual_mem_check.exe")
+    # While Creating exe change python.exe to _virtual_mem_check.exe 
+    os.system("taskkill /f /im python.exe")
     sys.exit(0)
 
 
