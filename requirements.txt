@@ -1,4 +1,4 @@
-windows-curses
+curses
 rich
 cryptography
 plyer
