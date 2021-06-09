@@ -1,4 +1,3 @@
-curses
 rich
 cryptography
 plyer
