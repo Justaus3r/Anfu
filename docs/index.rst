@@ -12,17 +12,14 @@ A python program to Encrypt Files and Directories using Symmetric
 encryption(fernet) Encryption.it has a simple Textual user
 interface(TUI).its available for both Linux and Windows.
 
-Download
-~~~~~~~~
 
-+---------------+--------------------------------------------------------------------------------------------------+
-|Operating System:| Comment:                                                                                         |
-+===============+==================================================================================================+
-| **Windows**     | `Windows <https://drive.google.com/uc?export=download&id=19sQsUEwv6K-4VQEy7rvuG_1sScKD8geh>`__   |
-+---------------+--------------------------------------------------------------------------------------------------+
-| **Linux**       | `Linux <https://drive.google.com/uc?export=download&id=1vBNCZDR8a4H8QDAvZ8ArwfttGWceo5x_>`__     |
-+---------------+--------------------------------------------------------------------------------------------------+
-
++------------------+---------------+
+|Operating System  |Download Link  |
++==================+===============+
+| Windows          |               |
++------------------+---------------+
+| Linux            |               |
++------------------+---------------+
 Screenshot:
 ~~~~~~~~~~~
 
