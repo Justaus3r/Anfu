@@ -16,11 +16,11 @@ Download
 ~~~~~~~~
 
 +---------------+--------------------------------------------------------------------------------------------------+
-| Date:         | Comment:                                                                                         |
+|Operating System | Comment:                                                                                         |
 +===============+==================================================================================================+
-| **Windows**   | `Windows <https://drive.google.com/uc?export=download&id=19sQsUEwv6K-4VQEy7rvuG_1sScKD8geh>`__   |
+| **Windows**     | `Windows <https://drive.google.com/uc?export=download&id=19sQsUEwv6K-4VQEy7rvuG_1sScKD8geh>`__   |
 +---------------+--------------------------------------------------------------------------------------------------+
-| **Linux**     | `Linux <https://drive.google.com/uc?export=download&id=1vBNCZDR8a4H8QDAvZ8ArwfttGWceo5x_>`__     |
+| **Linux**       | `Linux <https://drive.google.com/uc?export=download&id=1vBNCZDR8a4H8QDAvZ8ArwfttGWceo5x_>`__     |
 +---------------+--------------------------------------------------------------------------------------------------+
 
 Screenshot:
