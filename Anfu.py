@@ -756,7 +756,7 @@ def About(stdscr):
 def _exit(stdscr):
     os.remove("AnfuTmpcfg.temp")
     os.remove("write_notification_bool")
-    # While Creating exe change python.exe to _virtual_mem_check.exe 
+    # When creeating an executable change python.exe to _virtual_mem_check.exe
     os.system("taskkill /f /im python.exe")
     sys.exit(0)
 
@@ -766,8 +766,8 @@ def _help(stdscr):
     stdscr.clear()
     help_msg = '''
 ┌═════════════════════════════════════════════════════════════════════════════┐
-█                                   HELP                                      █
-█      This Help menu define's "How-to-use" and "Enabling mouse in Windows".  █ 
+█                                    HELP                                     █
+█      https:github.com/Justaus3r/Anfu for  more detailed troubleshooting     █ 
 █               Usage:                                                        █
 █                     Just Navigate through menu using UP/DOWN Keys or mouse. █
 █                     Before Encryption be sure that your system has minimal  █
@@ -775,14 +775,15 @@ def _help(stdscr):
 █                     with files greater than 100 Mb.As of this time Anfu     █
 █                     can't encrypt File/Folder greater than 1 Gigabyte.      █
 █                      "Big Files are not recommended for Encryption"         █                                                                             
-█               HOW TO ENABLE MOUSE ON WINDOWS:                               █
-█                      When you start Anfu in windows,mouse is not enabled    █
-█                      by default,this is NOT a bug of Anfu but a limitation  █
-█                      of Windows interpreter(cmd) that's why i integrated it █
-█                      with ConEmu Terminal Emulator but you need to enable   █
-█                      it and they way you can do it is by Right-clicking     █
-█                      on Menu  or using UP/DOWN Key.if it doesn't work       █
-█                      report a issue at github.com/justaus3r/Anfu.           █
+█               Troubleshooting some problems:                                █
+█              1:Enabling Mouse on Windows(Beta Feature):                     █
+█                Sometimes mouse doesn't work when you start Anfu(not a bug   █
+█                maybe,cmd limitation),you can simply enable it by right      █
+█                clicking the mouse on menu or by using UP/DOWN key.          █
+█              2:Directory not getting Encrypted:                             █
+█               Probably because the file is too big,you system does not have █
+█               enough RAM or you directory contains files that Anfu does not █
+█               have permissions.                                             █
 └═════════════════════════════════════════════════════════════════════════════┘
                        PRESS ANY KEY/CLICK TO CONTINUE
 '''
@@ -790,7 +791,7 @@ def _help(stdscr):
         curses.init_pair(39, curses.COLOR_RED, -1)    
         height_screen,width_screen = stdscr.getmaxyx()
         x_banner = width_screen // 2 - 40 
-        y_banner = height_screen // 2 - 10
+        y_banner = height_screen // 2 - 11
         for Lines in help_msg.split("\n"):
             stdscr.attron(curses.color_pair(39))
             stdscr.addstr(y_banner, x_banner, Lines)
@@ -800,7 +801,7 @@ def _help(stdscr):
         Main(stdscr)    
     except Exception :
         stdscr.clear()
-        Display_text_in_center(stdscr,"Please set windows size of atleast 112x35(x,y)") 
+        Display_text_in_center(stdscr,"Please set windows size of atleast 112x35(x,y)[recommended 113x40]") 
 
 
 
@@ -942,6 +943,8 @@ if os.path.isfile("AnfuTmpcfg.temp") is True:
 # Executing the ram checking module in a thread before starting the program
 def execute_ram_checker():
     os.system('_run_hidden.vbs')
-thread_execute_ram_checker = threading.Thread(target=execute_ram_checker)    
-thread_execute_ram_checker.start()
+#Only execute the ram checking module if the os is windows
+if os.name == 'nt':
+    thread_execute_ram_checker = threading.Thread(target=execute_ram_checker)    
+    thread_execute_ram_checker.start()
 curses.wrapper(Main)
