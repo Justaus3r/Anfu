@@ -30,8 +30,8 @@ A python program to Encrypt Files and Directories using Symmetric(fernet) Encryp
 ### Download
 | Operating system:         | Link:                                     | 
 | -------------             |:-------------:                            | 
-|**Windows**                | [Windows-v0.3.10](https://mega.nz/file/Nw9VRQjC#o5bd92eDAvQfMN7B0hQFB151xUdx8o7uL8IId6uLnfo)|
-|**Linux**                  | [Linux-v0.1.2](https://mega.nz/file/0l9GgBQJ#dZfgbZ2NiW8cHilTYMHA1DOt19o852-iLc83Nmejnh4)  |
+|**Windows**                | [Windows-Installerv0.3.10](https://mega.nz/file/Nw9VRQjC#o5bd92eDAvQfMN7B0hQFB151xUdx8o7uL8IId6uLnfo)/[Windows-Portablev0.3.10](https://mega.nz/file/c18yHACL#Abn-La2BH_AKXrnHeVsVJrfUl-CKgKBLN4kInG4VZLU)|
+|**Linux**                  | [Linux-v0.1.2](https://mega.nz/file/0l9GgBQJ#dZfgbZ2NiW8cHilTYMHA1DOt19o852-iLc83Nmejnh4)                |
 
 ### Screenshot:
 
@@ -39,7 +39,7 @@ A python program to Encrypt Files and Directories using Symmetric(fernet) Encryp
 
 ## Usage:
 #### Windows:
-Just either download the installer,install and use it or download the portable version for using it without installation.
+Just either download the installer,install and use it or download the portable version,extract it and exectute ```start_anfu.exe```for using it without installation.
 
 #### Linux:
 - Download the zip and extract it
