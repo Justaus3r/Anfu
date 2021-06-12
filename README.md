@@ -44,7 +44,6 @@ Just download the executable and start using it
 - Can Automatically Adjust itself with the screen at start time.
 
 ### TODO List:
-- Add mouse support(Currently working)
 - Encrypt Files with password
 
 ### 🔴 Note:
