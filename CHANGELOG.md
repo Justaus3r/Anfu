@@ -10,7 +10,7 @@ All notable changes to this project will be documented in this file. Dates are d
 - Major Update:Bump to version 0.3.10 [`04261b8`](https://github.com/Justaus3r/Anfu/commit/04261b8d37d5820baa71eba0af127fa3e1d75da8)
 - Add save Errorlogs on Desktop and Typo's [`d61e7e8`](https://github.com/Justaus3r/Anfu/commit/d61e7e8e90a3d255287ecc7d7e690bd62023d171)
 - Delete old source [`1ce10e1`](https://github.com/Justaus3r/Anfu/commit/1ce10e1f3e0bb638eabca64d52a3584341168434)
-- Added Mouse support (Experimental).
+- Add Mouse support (Experimental).
 - Add Change Program title. 
 - Add a Help Menu.
 - Add more efficient Error handling
