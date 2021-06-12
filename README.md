@@ -25,7 +25,7 @@ A python program to Encrypt Files and Directories using Symmetric(fernet) Encryp
 - Change font-type from simple font to fancy font(you need to configure your terminal for showing unicode characters).
 - Show tray notification upon encryption and decryption.
 - Mouse support,you can use keyboard as well as mouse for selecting options.
-- Interactive,can adjust itself to window size.
+- Interactive,can automatically adjust itself to window size.
 
 ### Download
 | Operating system:         | Link:                                     | 
