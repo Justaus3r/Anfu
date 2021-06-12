@@ -15,6 +15,18 @@
 
 A python program to Encrypt Files and Directories using Symmetric(fernet) Encryption.it has a simple Textual user interface(TUI).its available for both Linux and Windows.
 
+## Key Features:
+- A simple and attractive TUI(Textual user interface).
+- Cross-platform,works on both windows and linux and probably on Mac too(haven't checked on mac tho).
+- Enhanced Error-handling,save error's in errorlog on Desktop
+- Portable ,you can either install anfu or either use a portable version.use anywhere anytime.
+- Symmetric encryption.Files are encrypted with high level encryption.
+- Menory checking module for constantly checking system memory and show warnings when system exceeds 85% of memory usage.
+- Change font-type from simple font to fancy font(you need to configure your terminal for showing unicode characters).
+- Show tray notification upon encryption and decryption.
+- Mouse support,you can use keyboard as well as mouse for selecting options.
+- Interactive,can adjust itself to window size.
+
 ### Download
 | Operating system:         | Link:                                     | 
 | -------------             |:-------------:                            | 
@@ -27,25 +39,13 @@ A python program to Encrypt Files and Directories using Symmetric(fernet) Encryp
 
 ## Usage:
 #### Windows:
-Just download the executable and start using it
+Just either download the installer,install and use it or download the portable version for using it without installation.
 
 #### Linux:
 - Download the zip and extract it
 - Change the permission of setup file to executable(i.e ```chmod +x setup.sh```)
 - Execute the script i.e:```./setup.sh```
 - Type ```Anfu``` in terminal and start using it.cheers!
-
-## Key Features:
-- A simple and attractive TUI(Textual user interface).
-- Cross-platform,works on both windows and linux and probably on Mac too(haven't checked on mac tho).
-- Enhanced Error-handling,save error's in errorlog on Desktop
-- Portable ,you can either install anfu or either use a portable version.use anywhere anytime.
-- Symmetric encryption.Files are encrypted with high level encryption.
-- Menory checking module for constantly checking system memory and show warnings when system exceeds 85% of memory usage.
-- Change font-type from simple font to fancy font(you need to configure your terminal for showing unicode characters).
-- Show tray notification upon encryption and decryption.
-- Mouse support,you can use keyboard as well as mouse for selecting options.
-- Interactive,can adjust itself to window size.
 
 ### TODO List:
 - Encrypt Files with password
