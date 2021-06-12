@@ -28,6 +28,7 @@ A python program to Encrypt Files and Directories using Symmetric(fernet) Encryp
 - Interactive,can automatically adjust itself to window size.
 
 ### Download
+**Please disable your antivirus software before running the setup or the executable as it might (falsely)detect anfu as a malicious object due to nature of the program,i will work on fixing this False positive.**
 | Operating system:         | Link:                                     | 
 | -------------             |:-------------:                            | 
 |**Windows**                | [Windows-Installerv0.3.10](https://mega.nz/file/Nw9VRQjC#o5bd92eDAvQfMN7B0hQFB151xUdx8o7uL8IId6uLnfo)/[Windows-Portablev0.3.10](https://mega.nz/file/c18yHACL#Abn-La2BH_AKXrnHeVsVJrfUl-CKgKBLN4kInG4VZLU)|
