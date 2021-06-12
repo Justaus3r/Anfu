@@ -16,13 +16,10 @@
 A python program to Encrypt Files and Directories using Symmetric(fernet) Encryption.it has a simple Textual user interface(TUI).its available for both Linux and Windows.
 
 ### Download
-| Os:         | Link:                                     | 
-| ------------- |:-------------:                               | 
-|**Windows(10 only)**    | [Windows](https://drive.google.com/uc?export=download&id=1LVW8_62BQCcQy913dx6uIJla218wIy6M)|
-|**Linux**      | [Linux](https://drive.google.com/uc?export=download&id=1WSOFs3nU9ZGHlyIVa5EJ-7_r4fA4voiC)  |
-
-### Alternative Mirror:
-If above link is not working,you can also download Anfu(windows) from [Source-forge](https://sourceforge.net/projects/anfu/files/Anfu.exe/download)
+| Operating system:         | Link:                                     | 
+| -------------             |:-------------:                            | 
+|**Windows**                | [Windows-v0.3.10](https://mega.nz/file/Nw9VRQjC#o5bd92eDAvQfMN7B0hQFB151xUdx8o7uL8IId6uLnfo)|
+|**Linux**                  | [Linux-v0.1.2](https://mega.nz/file/0l9GgBQJ#dZfgbZ2NiW8cHilTYMHA1DOt19o852-iLc83Nmejnh4)  |
 
 ### Screenshot:
 
@@ -32,16 +29,23 @@ If above link is not working,you can also download Anfu(windows) from [Source-fo
 #### Windows:
 Just download the executable and start using it
 
-##### Linux:
+#### Linux:
 - Download the zip and extract it
 - Change the permission of setup file to executable(i.e ```chmod +x setup.sh```)
 - Execute the script i.e:```./setup.sh```
 - Type ```Anfu``` in terminal and start using it.cheers!
-### Key Features
+
+## Key Features:
 - A simple and attractive TUI(Textual user interface).
-- Portable ,no need for installation.install anywhere anytime
-- Symmetric encryption.Files are encrypted with high level encryption
-- Can Automatically Adjust itself with the screen at start time.
+- Cross-platform,works on both windows and linux and probably on Mac too(haven't checked on mac tho).
+- Enhanced Error-handling,save error's in errorlog on Desktop
+- Portable ,you can either install anfu or either use a portable version.use anywhere anytime.
+- Symmetric encryption.Files are encrypted with high level encryption.
+- Menory checking module for constantly checking system memory and show warnings when system exceeds 85% of memory usage.
+- Change font-type from simple font to fancy font(you need to configure your terminal for showing unicode characters).
+- Show tray notification upon encryption and decryption.
+- Mouse support,you can use keyboard as well as mouse for selecting options.
+- Interactive,can adjust itself to window size.
 
 ### TODO List:
 - Encrypt Files with password
@@ -56,7 +60,7 @@ All Contributions are Welcomed..Fork the repo and pull requests.Suggestions at x
 A breif Documentation is also available at [readthedocs](https://anfu.readthedocs.io/en/latest/)
 ### License:
 Distributed Under GPLV3
-## Changelog
+# Changelog
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
