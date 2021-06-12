@@ -121,17 +121,14 @@ Dates are displayed in UTC.
 -  Add check if a file/directory is encrypted/decrypted sucessfully.
 -  Add check if a file/directory is too large for encryption to prevent
    malfunction.
--  As of version
-   `0.3.10 <https://github.com/Justaus3r/Anfu/releases/tag/0.3.10>`__,Anfu
-   is integrated with ConEmu64 Terminal Emulator to overcome
-   windows-interpreter(cmd) limitations.
+-  As of version 0.3.10,Anfu is integrated with ConEmu64 Terminal Emulator to overcome windows-interpreter(cmd) limitations.
 -  Fix minor bugs and Typo's.
 -  Add backwards compatibility for windows 7.
--  Add ``.ankrypt`` extension for files encrypted by Anfu. ####
+-  Add ``.ankrypt`` extension for files encrypted by Anfu. 
+
    `0.1.3 <https://github.com/Justaus3r/Anfu/compare/0.1.2...0.1.3>`__
-
-    30 May 2021
-
+   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      30 May 2021
 -  Reformatted code
    ```4a66add`` <https://github.com/Justaus3r/Anfu/commit/4a66addeef0b9cddb3eb39274df267b708631912>`__
 -  Fix open file twice before selecting a file
@@ -151,7 +148,6 @@ Dates are displayed in UTC.
 
 `0.1.0 <https://github.com/Justaus3r/Anfu/releases/tag/0.1>`__
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
     12 April 2021
 
 -  Initial Release
