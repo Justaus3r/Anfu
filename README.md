@@ -22,7 +22,7 @@ A python program to Encrypt Files and Directories using Symmetric(fernet) Encryp
 - Can also encrypt programs along with other files.
 - Portable ,you can either install anfu or either use a portable version.use anywhere anytime.
 - Symmetric encryption.Files are encrypted with high level encryption.
-- Menory checking module for constantly checking system memory and show warnings when system exceeds 85% of memory usage.
+- Memory checking module for constantly checking system memory and show warnings when system exceeds 85% of memory usage.
 - Change font-type from simple font to fancy font(you need to configure your terminal for showing unicode characters).
 - Show tray notification upon encryption and decryption.
 - Mouse support,you can use keyboard as well as mouse for selecting options.
