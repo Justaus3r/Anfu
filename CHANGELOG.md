@@ -23,6 +23,7 @@ All notable changes to this project will be documented in this file. Dates are d
 - Add check if a file/directory is too large for encryption to prevent malfunction.
 - As of version [0.3.10](https://github.com/Justaus3r/Anfu/releases/tag/0.3.10),Anfu is integrated with ConEmu64 Terminal Emulator to overcome windows-interpreter(cmd) limitations.
 - Fix minor bugs and Typo's.
+- Add backwards compatibility for windows 7.
 #### [0.1.3](https://github.com/Justaus3r/Anfu/compare/0.1.2...0.1.3)
 
 > 30 May 2021
