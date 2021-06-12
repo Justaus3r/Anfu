@@ -1,2 +1,0 @@
-- name: generate-changelog-action
-  uses: ScottBrenner/generate-changelog-action@v1.3.0
