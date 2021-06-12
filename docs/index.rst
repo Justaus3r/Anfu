@@ -86,13 +86,12 @@ All Contributions are Welcomed..Fork the repo and pull
 requests.Suggestions at x-neron@pm.me or open an
 `issue <https://github.com/Justaus3r/Anfu/issues>`__
 
-Documentation:
-~~~~~~~~~~~~~~
-
-A breif Documentation is also available at
-`readthedocs <https://anfu.readthedocs.io/en/latest/>`__ ### License:
+License:
+~~~~~~~~~
 Distributed Under GPLV3 # Changelog
 
+ChangeLog:
+~~~~~~~~~~~
 All notable changes to this project will be documented in this file.
 Dates are displayed in UTC.
 
