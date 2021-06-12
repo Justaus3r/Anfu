@@ -19,6 +19,7 @@ A python program to Encrypt Files and Directories using Symmetric(fernet) Encryp
 - A simple and attractive TUI(Textual user interface).
 - Cross-platform,works on both windows and linux and probably on Mac too(haven't checked on mac tho).
 - Enhanced Error-handling,save error's in errorlog on Desktop
+- Can also encrypt programs along with other files.
 - Portable ,you can either install anfu or either use a portable version.use anywhere anytime.
 - Symmetric encryption.Files are encrypted with high level encryption.
 - Menory checking module for constantly checking system memory and show warnings when system exceeds 85% of memory usage.
