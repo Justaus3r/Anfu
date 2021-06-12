@@ -26,7 +26,7 @@ If above link is not working,you can also download Anfu(windows) from [Source-fo
 
 ### Screenshot:
 
- ![Screenshot](https://drive.google.com/uc?export=download&id=1ZDll6R1LYuY_E9zpaklfI3i3DgEa45yi)
+ ![Screenshot](https://drive.google.com/uc?export=download&id=1OHheyOFD38jAC-3QjggYsvdWNe9dt86W)
 
 ## Usage:
 #### Windows:
