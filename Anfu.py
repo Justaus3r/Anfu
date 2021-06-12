@@ -55,7 +55,7 @@ except FileNotFoundError:
     with open('_config_font_type','w') as write_font_type:
         write_font_type.write('0')
         write_font_type.close()
-    font_type = 0    
+    font_type = '0'    
 
 # Defining All the menu lists
 _menu_list_1 = ["Encrypt", "Decrypt", "Help","About", "Exit"]
