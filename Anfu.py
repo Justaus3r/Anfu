@@ -46,16 +46,36 @@ def CheckOs():
         return "Windows"
     else:
         return "Linux"
+# settinf the font type used by anfu
+try:
+    with open('_config_font_type','r') as read_font_type:
+        font_type = read_font_type.read()
+        read_font_type.close()
+except FileNotFoundError:
+    with open('_config_font_type','w') as write_font_type:
+        write_font_type.write('0')
+        write_font_type.close()
+    font_type = 0    
 
 # Defining All the menu lists
 _menu_list_1 = ["Encrypt", "Decrypt", "Help","About", "Exit"]
 _sub_menu_list_encrypt = ["Encrypt a File", "Encrypt a Folder", "Back"]
 _sub_menu_list_decrypt = ["Decrypt a File", "Decrypt a Folder", "Back"]
-_sub_menu_list_encrypt2 = ["𝓔𝓷𝓬𝓻𝔂𝓹𝓽 𝓪 𝓕𝓲𝓵𝓮", "𝓔𝓷𝓬𝓻𝔂𝓹𝓽 𝓪 𝓕𝓸𝓵𝓭𝓮𝓻", "𝓑𝓪𝓬𝓴"]
-_menu_list_2 = ["𝓔𝓷𝓬𝓻𝔂𝓹𝓽", "𝓓𝓮𝓬𝓻𝔂𝓹𝓽","𝓗𝓮𝓵𝓹","𝓐𝓫𝓸𝓾𝓽", "𝓔𝔁𝓲𝓽"]
-_sub_menu_list_decrypt2 = ["𝓓𝓮𝓬𝓻𝔂𝓹𝓽 𝓪 𝓕𝓲𝓵𝓮", "𝓓𝓮𝓬𝓻𝔂𝓹𝓽 𝓪 𝓕𝓸𝓵𝓭𝓮𝓻", "𝓑𝓪𝓬𝓴"]
-
-
+if font_type == '0':
+    _menu_list_2 = [".>Encrypt", ".>Decrypt", ".>Help",".>About", ".>Exit"]
+    _sub_menu_list_encrypt2 = [".>Encrypt a File", ".>Encrypt a Folder", ".>Back"]
+    _sub_menu_list_decrypt2 = [".>Decrypt a File", ".>Decrypt a Folder", ".>Back"]
+elif font_type == '1':    
+    _sub_menu_list_encrypt2 = ["𝓔𝓷𝓬𝓻𝔂𝓹𝓽 𝓪 𝓕𝓲𝓵𝓮", "𝓔𝓷𝓬𝓻𝔂𝓹𝓽 𝓪 𝓕𝓸𝓵𝓭𝓮𝓻", "𝓑𝓪𝓬𝓴"]
+    _menu_list_2 = ["𝓔𝓷𝓬𝓻𝔂𝓹𝓽", "𝓓𝓮𝓬𝓻𝔂𝓹𝓽","𝓗𝓮𝓵𝓹","𝓐𝓫𝓸𝓾𝓽", "𝓔𝔁𝓲𝓽"]
+    _sub_menu_list_decrypt2 = ["𝓓𝓮𝓬𝓻𝔂𝓹𝓽 𝓪 𝓕𝓲𝓵𝓮", "𝓓𝓮𝓬𝓻𝔂𝓹𝓽 𝓪 𝓕𝓸𝓵𝓭𝓮𝓻", "𝓑𝓪𝓬𝓴"]
+else:
+    with open('_config_font_type','w') as write_font_type:
+        write_font_type.write('0')
+        write_font_type.close()
+    _menu_list_2 = [".>Encrypt", ".>Decrypt", ".>Help",".>About", ".>Exit"]
+    _sub_menu_list_encrypt2 = [".>Encrypt a File", ".>Encrypt a Folder", ".>Back"]
+    _sub_menu_list_decrypt2 = [".>Decrypt a File", ".>Decrypt a Folder", ".>Back"]
 
 # Defining a text list,that is to be animated
 textlist = [
@@ -754,10 +774,14 @@ def About(stdscr):
 
 #exit    
 def _exit(stdscr):
-    os.remove("AnfuTmpcfg.temp")
-    os.remove("write_notification_bool")
+    try:
+        os.remove("AnfuTmpcfg.temp")
+        os.remove("write_notification_bool")
+    except FileNotFoundError:
+        pass
     # When creeating an executable change python.exe to _virtual_mem_check.exe
-    os.system("taskkill /f /im python.exe")
+    if CheckOs() == 'Windows':
+        os.system("taskkill /f /im python.exe")
     sys.exit(0)
 
 
@@ -780,7 +804,7 @@ def _help(stdscr):
 █                Sometimes mouse doesn't work when you start Anfu(not a bug   █
 █                maybe,cmd limitation),you can simply enable it by right      █
 █                clicking the mouse on menu or by using UP/DOWN key.          █
-█              2:Directory not getting Encrypted:                             █
+█              2:Directory/File not getting Encrypted:                        █
 █               Probably because the file is too big,you system does not have █
 █               enough RAM or you directory contains files that Anfu does not █
 █               have permissions.                                             █
