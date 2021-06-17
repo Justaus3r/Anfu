@@ -302,7 +302,7 @@ def _get_keyfile(stdscr):
 
 # Function to check if a file is being choosed or not
 def is_file_choosen(stdscr, thefilename):
-    if str(thefilename) == "()" or str(thefilename) == "" :
+    if str(thefilename) in ('()',''):
         stdscr.clear()
         stdscr.attron(curses.color_pair(68))
         Display_text_in_center(stdscr, "Error:OniChan you baka,Choose a File First")
