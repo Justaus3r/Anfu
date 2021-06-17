@@ -5,6 +5,7 @@
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 ![Contribution](https://img.shields.io/badge/Contributions-Welcome-<brightgreen>)
 ![language](https://badgen.net/badge/Language/Python/cyan)
+![semver](https://badgen.net/badge/Semantic-Version/0.3.10/purple)
 [![Active](http://img.shields.io/badge/Status-Active-green.svg)](https://github.com/Justaus3r)
 [![GitHub commits since](https://img.shields.io/github/commits-since/Justaus3r/Anfu/0.1)]() 
 [![Issues](https://img.shields.io/github/issues-raw/Justaus3r/Penta?maxAge=25000)](https://github.com/Justaus3r/Penta/issues)
@@ -20,7 +21,7 @@ A python program to Encrypt Files and Directories using Symmetric(fernet) Encryp
 - Cross-platform,works on both windows and linux and probably on Mac too(haven't checked on mac tho).
 - Enhanced Error-handling,save error's in errorlog on Desktop
 - Can also encrypt programs along with other files.
-- Portable ,you can either install anfu or either use a portable version.use anywhere anytime.
+- Portable ,you can either install anfu or either use a portable version.use anytime anywhere.
 - Symmetric encryption.Files are encrypted with high level encryption.
 - Memory checking module for constantly checking system memory and show warnings when system exceeds 85% of memory usage.
 - Change font-type from simple font to fancy font(you need to configure your terminal for showing unicode characters).
