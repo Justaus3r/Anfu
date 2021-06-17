@@ -27,7 +27,6 @@ import curses
 import time
 import sys
 import os
-import time
 from core.EncFo import FolderEncryption
 from core.EncFi import FileEncryption
 from tkinter import *
