@@ -52,6 +52,18 @@ Just either download the installer,install and use it or download the portable v
 - Execute the script i.e:```./setup.sh```
 - Type ```Anfu``` in terminal and start using it.cheers!
 
+
+## Build requirements:
+if you want to run Anfu as a script ,you will need to install some requirements which are as follows:
+
+[rich](https://pypi.org/project/rich/)
+
+[cryptography](https://pypi.org/project/cryptography/)
+
+[plyer](https://pypi.org/project/plyer/)
+
+you can install them using ```python3 -m pip install -r requirements.txt```.windows users also need to install [windows-curses](https://pypi.org/project/windows-curses/).
+
 ### TODO List:
 - Encrypt Files with password
 
