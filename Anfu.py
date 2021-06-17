@@ -902,7 +902,7 @@ def Main(stdscr):
         with open("AnfuTmpcfg.temp", "r") as ReadConf:
             _show_banner_count = ReadConf.read()
             ReadConf.close()
-    except:
+    except Exception:
         _show_banner_count = 1
     if int(_show_banner_count) < 1:
         with open("AnfuTmpcfg.temp", "w") as Writeconf:
