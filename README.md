@@ -66,6 +66,7 @@ you can install them using ```python3 -m pip install -r requirements.txt```.wind
 
 ### TODO List:
 - Encrypt Files with password
+- Add a encryption-key savebox(for securely saving the key)
 
 ### 🔴 Note:
 Please keep the encryption key safe,if anyone gets it your data might get compromised.if you don't want to keep the key file then open it and copy the key and keep that key somewhere safe. 
