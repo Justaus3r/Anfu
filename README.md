@@ -10,7 +10,9 @@
 [![GitHub commits since](https://img.shields.io/github/commits-since/Justaus3r/Anfu/0.1)]() 
 [![Issues](https://img.shields.io/github/issues-raw/Justaus3r/Penta?maxAge=25000)](https://github.com/Justaus3r/Penta/issues)
 [![GitHub Release](https://img.shields.io/github/release/Justaus3r/Anfu?style=flat)]()
-[![Code of Conduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat)](https://github.com/Justaus3r/Penta/blob/main/docs/CODE_OF_CONDUCT.md) 
+[![Code of Conduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat)](https://github.com/Justaus3r/Penta/blob/main/docs/CODE_OF_CONDUCT.md)
+[![DeepSource-active-issues](https://deepsource.io/gh/Justaus3r/Anfu.svg/?label=active+issues&show_trend=true&token=jisXXMKwTBXRZ-KwRsHzyckr)](https://deepsource.io/gh/Justaus3r/Anfu/?ref=repository-badge)
+[![DeepSource-fixed-issues](https://deepsource.io/gh/Justaus3r/Anfu.svg/?label=resolved+issues&show_trend=true&token=jisXXMKwTBXRZ-KwRsHzyckr)](https://deepsource.io/gh/Justaus3r/Anfu/?ref=repository-badge)
 [![Documentation Status](https://readthedocs.org/projects/anfu/badge/?version=latest)](https://anfu.readthedocs.io/en/latest/?badge=latest)
 [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
 
