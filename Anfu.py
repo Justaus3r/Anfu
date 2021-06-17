@@ -632,7 +632,7 @@ def _calculate_file_dir_size(stdscr,path):
             _file_size = os.path.getsize(path)
             return _file_size
         else:
-            for rootpath,dirs,files in os.walk(path):
+            for rootpath,_,files in os.walk(path):
                 for file in files:
                     filepath = os.path.join(rootpath,file)
                     if not os.path.islink(filepath):
