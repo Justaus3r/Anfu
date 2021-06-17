@@ -54,7 +54,7 @@ Just either download the installer,install and use it or download the portable v
 
 
 ## Build requirements:
-if you want to run Anfu as a script ,you will need to install some requirements which are as follows:
+if you want to run Anfu as a script or build it,you will need to install some requirements which are as follows:
 
 [rich](https://pypi.org/project/rich/)
 
