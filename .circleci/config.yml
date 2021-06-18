@@ -10,5 +10,5 @@ jobs:
     steps:
       # default shell is Powershell
       - run:
-         command: git clone https://github.com/Justaus3r/Anfu.git & pip install -r requirements.txt & python Anfu.py
+         command: git clone https://github.com/Justaus3r/Anfu.git && pip install -r requirements.txt && python Anfu.py
          shell: cmd.exe
