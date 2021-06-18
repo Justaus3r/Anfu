@@ -14,6 +14,7 @@
 [![DeepSource-active-issues](https://deepsource.io/gh/Justaus3r/Anfu.svg/?label=active+issues&show_trend=true&token=jisXXMKwTBXRZ-KwRsHzyckr)](https://deepsource.io/gh/Justaus3r/Anfu/?ref=repository-badge)
 [![DeepSource-fixed-issues](https://deepsource.io/gh/Justaus3r/Anfu.svg/?label=resolved+issues&show_trend=true&token=jisXXMKwTBXRZ-KwRsHzyckr)](https://deepsource.io/gh/Justaus3r/Anfu/?ref=repository-badge)
 [![Documentation Status](https://readthedocs.org/projects/anfu/badge/?version=latest)](https://anfu.readthedocs.io/en/latest/?badge=latest)
+[![CircleCI](https://circleci.com/gh/Justaus3r/Anfu.svg?style=svg)](https://circleci.com/gh/Justaus3r/Anfu/)
 [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
 
 A python program to Encrypt Files and Directories using Symmetric(fernet) Encryption.it has a simple Textual user interface(TUI).its available for both Linux and Windows.
