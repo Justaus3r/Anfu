@@ -2,3 +2,4 @@ rich
 cryptography
 plyer
 pytest 
+windows-curses
