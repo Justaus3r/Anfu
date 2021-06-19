@@ -778,9 +778,9 @@ def _exit(stdscr):
         os.remove("write_notification_bool")
     except FileNotFoundError:
         pass
-    # When creeating an executable change python.exe to _virtual_mem_check.exe
+    # When creating an executable ,remove 'rem' from the command
     if CheckOs() == 'Windows':
-        os.system("taskkill /f /im python.exe")
+        os.system("rem taskkill /f /im  _virtual_mem_check.exe")
     sys.exit(0)
 
 
