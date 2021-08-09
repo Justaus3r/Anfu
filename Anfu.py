@@ -21,7 +21,7 @@ Distributed under GPLV3
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
-This is My First Project with curses so prolly gonna be messy,also too many comments,lol
+This is My First Project with curses so prolly gonna be a REAL mess,also too many comments,lol
 """
 import curses
 import time
@@ -781,6 +781,9 @@ def _exit(stdscr):
     # When creating an executable ,remove 'rem' from the command
     if CheckOs() == 'Windows':
         os.system("rem taskkill /f /im  _virtual_mem_check.exe")
+        os.system("rem taskkill /f /im  python.exe")
+    else:
+        os.system('pkill python3')    
     sys.exit(0)
 
 
@@ -964,10 +967,21 @@ def Main(stdscr):
 if os.path.isfile("AnfuTmpcfg.temp") is True:
     os.remove("AnfuTmpcfg.temp")   
 # Executing the ram checking module in a thread before starting the program
-def execute_ram_checker():
+def execute_ram_check_win():
     os.system('_run_hidden.vbs')
-#Only execute the ram checking module if the os is windows
-if os.name == 'nt':
-    thread_execute_ram_checker = threading.Thread(target=execute_ram_checker)    
-    thread_execute_ram_checker.start()
+
+def execute_ram_check_linux():
+    os.system('chmod +x _virtual_mem_check.py && python3 _virtual_mem_check.py &')
+
+with open('_run_memcheck_bool','r') as read_memcheck_bool:
+    memcheck_bool = read_memcheck_bool.read()
+
+if int(memcheck_bool) == 1:    
+    if os.name == 'nt':
+        thread_execute_ram_check = threading.Thread(target=execute_ram_check_win)    
+        thread_execute_ram_check.start()
+    else:
+        thread_execute_ram_check = threading.Thread(target=execute_ram_check_linux)
+        thread_execute_ram_check.start()
+
 curses.wrapper(Main)
