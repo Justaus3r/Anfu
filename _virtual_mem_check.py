@@ -55,7 +55,7 @@ def _check_ram_usage():
             percent_used = ram_info[2]
             with open('write_notification_bool','r') as read_notification_bool:
                 show_notification_bool = read_notification_bool.read()
-            if int(percent_used) > 20 and show_notification_bool == 'True':
+            if int(percent_used) > 80 and show_notification_bool == 'True':
                 show_notification() 
         except Exception:
             continue
