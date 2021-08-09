@@ -973,9 +973,12 @@ def execute_ram_check_win():
 def execute_ram_check_linux():
     os.system('chmod +x _virtual_mem_check.py && python3 _virtual_mem_check.py &')
 
-with open('_run_memcheck_bool','r') as read_memcheck_bool:
-    memcheck_bool = read_memcheck_bool.read()
-
+try:
+    with open('_run_memcheck_bool','r') as read_memcheck_bool:
+        memcheck_bool = read_memcheck_bool.read()
+except FileNotFoundError:
+    memcheck_bool = 1
+    
 if int(memcheck_bool) == 1:    
     if os.name == 'nt':
         thread_execute_ram_check = threading.Thread(target=execute_ram_check_win)    
