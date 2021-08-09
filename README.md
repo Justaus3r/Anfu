@@ -48,6 +48,16 @@ A python program to Encrypt Files and Directories using Symmetric(fernet) Encryp
 Just either download the installer,install and use it or download the portable version,extract it and exectute ```start_anfu.exe```for using it without installation.
 
 #### Linux:
+First install xterm:
+
+For debian based distros:
+```
+sudo apt install xterm
+```
+For Arch based distros:
+```
+sudo pacman -S xterm
+```
 - Download the zip and extract it
 - Change the permission of setup file to executable(i.e ```chmod +x setup.sh```)
 - Execute the script i.e:```./setup.sh```
