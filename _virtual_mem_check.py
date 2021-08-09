@@ -4,7 +4,7 @@
 ███████║██╔██╗██║█████╗░░██║░░░██║
 ██╔══██║██║╚████║██╔══╝░░██║░░░██║
 ██║░░██║██║░╚███║██║░░░░░╚██████╔╝
-╚═╝░░╚═╝╚═╝░░╚══╝╚═╝░░░░░░╚═════╝░v0.2.0
+╚═╝░░╚═╝╚═╝░░╚══╝╚═╝░░░░░░╚═════╝░v0.3.10
 ©Justaus3r 2021
 Distributed under GPLV3
   This program is free software: you can redistribute it and/or modify
@@ -22,7 +22,7 @@ Distributed under GPLV3
 
 This file is a part of Anfu,a Tui tool for encrypting files/folder
 
-_virtual_memory_check.py - Module of Anfu.py for checking ram usage and showing warnings when exceeds certain limit.
+_virtual_memory_check.py - Module for checking ram usage and showing warnings when exceeds certain limit.
 """
 import psutil
 import threading
@@ -31,28 +31,34 @@ import os
 
 # A function to change states to true,false continiously after some time 
 def show_notification_or_not():
-    while True:
+    loopconnected = True
+    while loopconnected:
         with open('write_notification_bool','w') as _write_notification_bool:
             _write_notification_bool.write('True')
-        time.sleep(1.5)
+        time.sleep(3)
         with open('write_notification_bool','w') as _write_notification_bool:
             _write_notification_bool.write('False')        
         time.sleep(300)
 
 def show_notification():
-    os.system('start _low_ram_notifier.bat &')
+    if os.name == 'nt':
+        os.system('start _low_ram_notifier.bat &')
+    else:
+        os.system('chmod +x _low_ram_notifier.sh && xterm -geometry 100x30+400+500 -e ./_low_ram_notifier.sh &')
 
-
-def _check_ram_usage():  
-    while True:  
-        time.sleep(2)
-        ram_info = psutil.virtual_memory()
-        percent_used = ram_info[2]
-        with open('write_notification_bool','r') as read_notification_bool:
-            show_notification_bool = read_notification_bool.read()
-        if int(percent_used) > 85 and show_notification_bool == 'True':
-            show_notification() 
-
+def _check_ram_usage():
+    loopconnected = True  
+    while loopconnected:  
+        try:
+            time.sleep(2)
+            ram_info = psutil.virtual_memory()
+            percent_used = ram_info[2]
+            with open('write_notification_bool','r') as read_notification_bool:
+                show_notification_bool = read_notification_bool.read()
+            if int(percent_used) > 20 and show_notification_bool == 'True':
+                show_notification() 
+        except Exception:
+            continue
 thread_show_notification_or_not = threading.Thread(target=show_notification_or_not)
 thread_check_ram_usage = threading.Thread(target=_check_ram_usage)
 thread_show_notification_or_not.start()   
