@@ -24,7 +24,7 @@ rem A simple batch file to show notification ,when user exceeds 85% ram usage
 rem setting screeen color ,title and version
 color 0c
 title Anfu Low Ram Notification
-set VERSION=0.2.0
+set VERSION=0.3.11
 mode 94,10
 echo    _____          _____      
 echo   /  _  \   _____/ ____\_ __ 
