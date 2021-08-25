@@ -17,7 +17,7 @@
 
 #This file is a part of Anfu,a Tui tool for encrypting files/folder
 
-VERSION=0.3.10
+VERSION=0.3.11
 
 echo ░█████╗░███╗░░██╗███████╗██╗░░░██╗
 echo ██╔══██╗████╗░██║██╔════╝██║░░░██║
