@@ -93,7 +93,7 @@ Distributed Under GPLV3
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
-####[0.3.11](https://github.com/Justaus3r/Anfu/compare/0.3.10...0.3.11)
+#### [0.3.11](https://github.com/Justaus3r/Anfu/compare/0.3.10...0.3.11)
 
 > 25 Aug 2021
 
