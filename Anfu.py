@@ -4,7 +4,7 @@
 ███████║██╔██╗██║█████╗░░██║░░░██║
 ██╔══██║██║╚████║██╔══╝░░██║░░░██║
 ██║░░██║██║░╚███║██║░░░░░╚██████╔╝
-╚═╝░░╚═╝╚═╝░░╚══╝╚═╝░░░░░░╚═════╝░v0.3.10
+╚═╝░░╚═╝╚═╝░░╚══╝╚═╝░░░░░░╚═════╝░v0.3.11
 ©Justaus3r 2021
 Distributed under GPLV3
   This program is free software: you can redistribute it and/or modify
@@ -94,7 +94,7 @@ textlist = [
 ]
 
 # version no
-VERSION = '0.3.10'
+VERSION = '0.3.11'
 # title
 TITLE = f"Anfuv{VERSION}"
 # Defining the Banner
@@ -802,14 +802,14 @@ def _help(stdscr):
 █                     can't encrypt File/Folder greater than 1 Gigabyte.      █
 █                      "Big Files are not recommended for Encryption"         █                                                                             
 █               Troubleshooting some problems:                                █
-█              1:Enabling Mouse on Windows(Beta Feature):                     █
-█                Sometimes mouse doesn't work when you start Anfu(not a bug   █
-█                maybe,cmd limitation),you can simply enable it by right      █
-█                clicking the mouse on menu or by using UP/DOWN key.          █
+█              1:Fixing Mouse on some Terminals(Beta Feature):                █
+█                Sometimes mouse doesn't work when you start Anfu(not a bug)  █
+█               you can fix this by simply right clicking the mouse on menu   █
+█               or by using UP/DOWN key.                                      █
 █              2:Directory/File not getting Encrypted:                        █
 █               Probably because the file is too big,you system does not have █
 █               enough RAM or you directory contains files that Anfu does not █
-█               have permissions.                                             █
+█               have permissions to encrypt.                                  █
 └═════════════════════════════════════════════════════════════════════════════┘
                        PRESS ANY KEY/CLICK TO CONTINUE
 '''
