@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
+#### [0.3.11](https://github.com/Justaus3r/Anfu/compare/0.3.10...0.3.11)
+
+> 25 Aug 2021
+
+- Add memory checking module.
+- Add option to run memory checking module or not.
+- Fix typos and bugs
+
+
 #### [0.3.10](https://github.com/Justaus3r/Anfu/compare/0.1.3...0.3.10)
 
 > 9 June 2021
